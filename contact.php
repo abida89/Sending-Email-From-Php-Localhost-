@@ -13,7 +13,7 @@ if(isset($_POST['contactbtn'])){
 
 $mail = new PHPMailer;
 
-$mail->SMTPDebug = 4;              // Enable verbose debug output
+//$mail->SMTPDebug = 4;              // Enable verbose debug output
 $mail->isSMTP();                  // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;         // Enable SMTP authentication
